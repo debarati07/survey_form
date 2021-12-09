@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="top">
+        <h1 id="title" style="font-size: 100px">Locality Survey</h1>
+        <p id="description" style="font-size: 50px">
+          Thank you for your support
+        </p>
+      </div>
+      <div class="middle">
+        <form id="survey-form">
+          <div class="formgap">
+            <div class="name">
+              <label for="name" id="name-label">Name</label>
+            </div>
+            <input
+              type="text"
+              placeholder="Enter your name"
+              id="name"
+              required
+            />
+          </div>
+          <div class="formgap">
+            <div class="email">
+              <label for="email" id="email-label">Email</label>
+            </div>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="formgap">
+            <div class="area">
+              <label for="number" id="number-label">Area</label>
+            </div>
+            <input
+              type="number"
+              id="number"
+              min="711105"
+              max="711109"
+              required
+              placeholder="Enter area no."
+            />
+          </div>
+          <div class="formgap">
+            <div class="dropdown">
+              <label for="dropdown">Problem You Want To Report:</label>
+            </div>
+            <select name="problems" id="dropdown" required>
+              <option value="Water">Sewage and Water logging Issue</option>
+              <option value="road">Issue with roads</option>
+              <option value="sanitation">Sanitation and Hygiene Issue</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="formgap">
+            <label for="textarea" class="textarea"
+              >Describe your problem in detail</label
+            >
+            <textarea
+              id="textarea"
+              placeholder="Enter some details here...."
+            ></textarea>
+          </div>
+          <div class="formgap">
+            <p>How satisfied are you with your locality services?</p>
+             
+            <input type="radio" id="html" name="service" value="satisfied" />  
+            <label for="html">satisfied</label><br />
+             
+            <input
+              type="radio"
+              id="css"
+              name="service"
+              value="Somewhat Satisfied"
+            />
+              <label for="css">somewhat satisfied</label><br />
+             
+            <input
+              type="radio"
+              id="javascript"
+              name="service"
+              value="dissatisfied"
+            />
+              <label for="javascript">dissatisfied</label>
+          </div>
+          <div class="formgap">
+            <p>From where did you get to know about this survey form</p>
+            <input
+              type="checkbox"
+              id="vehicle1"
+              name="vehicle1"
+              value="newspaper"
+            />
+            <label for="vehicle1">Newspaper</label><br />
+            <input
+              type="checkbox"
+              id="vehicle2"
+              name="vehicle2"
+              value="local people"
+            />
+            <label for="vehicle2">Local people</label><br />
+            <input
+              type="checkbox"
+              id="vehicle3"
+              name="vehicle3"
+              value="website"
+            />
+            <label for="vehicle3">Website</label>
+          </div>
+          <button type="submit" id="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

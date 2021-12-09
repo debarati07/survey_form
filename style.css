@@ -1,0 +1,72 @@
+body {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Hanskhali_Bridge_-_Howrah_070085.JPG/1200px-Hanskhali_Bridge_-_Howrah_070085.JPG");
+  background-size: cover;
+  font-weight: bold;
+  background-size: cover;
+}
+#textarea {
+  margin-top: 10px;
+  height: 100px;
+  width: 350px;
+  font-size: 1.2rem;
+  margin-top: 1px;
+  border-radius: 15px;
+  border: 2px solid black;
+  padding: 20px;
+}
+.top {
+  text-align: center;
+}
+#description {
+  font-weight: 900;
+}
+.middle {
+  display: inline-block;
+  padding: 70px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.formgap {
+  font-size: 1.4rem;
+}
+.area,
+.email,
+.name {
+  margin-right: 550px;
+}
+.dropdown {
+  margin-right: 300px;
+  margin-top: 20px;
+}
+#submit {
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+#name,
+#email,
+#number {
+  font-size: 1.2rem;
+  margin-top: 1px;
+  border-radius: 15px;
+  border: 2px solid black;
+  padding: 20px;
+  width: 600px;
+  height: 15px;
+}
+#dropdown {
+  border-radius: 15px;
+  border: 2px solid black;
+  padding: 20px;
+  width: 650px;
+  height: 15px;
+}
